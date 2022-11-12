@@ -77,13 +77,42 @@ nav ul li a:hover {
 }
 
 .content-profile {
-    margin-left: 10%;
+    display: flex;
+    justify-content: end;
 }
 
 .content-profile img{
     width: 25px;
     margin: 10px;
 
+}
+
+.resume,
+.portfolio,
+.contact {
+    width: 100%;
+    height: 30em;
+}
+
+.resume {
+    background-color: aquamarine;
+}
+
+.portfolio {
+    background-color: tomato;
+}
+
+.contact {
+    background-color: blue;
+}
+
+footer {
+    justify-content: center;
+}
+
+footer h4 {
+    font-weight: lighter;
+    
 }
 
 
