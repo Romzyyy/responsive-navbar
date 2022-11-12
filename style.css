@@ -10,7 +10,7 @@ body {
 
 nav {
     display: flex;
-    background-color: rgb(44, 44, 44);
+    background-color: #2C3639;
     justify-content: space-around;
     color: aliceblue;
     height: 40px;
@@ -28,28 +28,64 @@ nav ul {
     list-style: none;
     width: 30%;
     justify-content: space-between;
+    
 }
 
 nav ul li a {
     text-decoration: none;
     color: aliceblue;
+    
+    padding: 3px 10px;
+    border-radius: 15px;
+    transition: ease 0.5s; 
 }
 
 nav ul li a:hover {
-    color: rgb(0, 230, 115);
+    background-color: #F7F7EE;
+    color: #2C3639;
 }
 
 .thumbnail {
     width: 100%;
     height: 35em;
     display: flex;
+    color: aliceblue;
+    
+    
 }
 
 .thumbnail-content {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+    align-items: center;
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(18,18,33,1) 20%, rgba(97,97,97,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,36,48,1) 20%, rgba(44,54,57,1) 90%);
 }
+
+.content-name,
+.content-image,
+.content-profile {
+    width: 25em;
+}
+
+.content-image img {
+    width: 100%;
+    opacity: 100px;
+}
+
+.content-profile {
+    margin-left: 10%;
+}
+
+.content-profile img{
+    width: 25px;
+    margin: 10px;
+
+}
+
 
 @media screen and (max-width: 1200px) {
     nav ul{
