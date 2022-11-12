@@ -15,7 +15,6 @@ nav {
     color: aliceblue;
     height: 40px;
     align-items: center;
-    position: fixed;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -42,14 +41,14 @@ nav ul li a:hover {
 
 .thumbnail {
     width: 100%;
-  backdrop-filter: bl;
-    
+    height: 35em;
+    display: flex;
 }
 
-.thumbnail img {
+.thumbnail-content {
     width: 100%;
-   
-    
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(18,18,33,1) 20%, rgba(97,97,97,1) 100%);
 }
 
 @media screen and (max-width: 1200px) {
