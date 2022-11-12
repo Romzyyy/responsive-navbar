@@ -10,7 +10,7 @@ body {
 
 nav {
     display: flex;
-    background-color: #2C3639;
+    background-color: #1B2430;
     justify-content: space-around;
     color: aliceblue;
     height: 40px;
@@ -95,7 +95,11 @@ nav ul li a:hover {
 }
 
 .resume {
-    background-color: aquamarine;
+    background-color: #1B2430;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
 }
 
 .portfolio {
